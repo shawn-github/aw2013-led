@@ -1,0 +1,10 @@
+#
+#  Brelight  driver configuration
+#
+config  AW2013_LED
+       tristate  "aw2013 led driver"      
+       depends on I2C
+       default m
+       help
+         aw2013 led driver    
+         
